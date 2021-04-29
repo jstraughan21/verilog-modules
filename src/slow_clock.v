@@ -16,8 +16,8 @@ module slow_clock(clkOut, clkIn, rst);
     reg clkOut = 0;
     reg [22:0] delay, nDelay;
 
-    //parameter CYCLES = 23'd4999999;
-    parameter CYCLES = 23'd10;
+    parameter CYCLES = 23'd4999999;
+    //parameter CYCLES = 23'd10;
 
     always @(posedge clkIn) begin
         if (rst == 1)
