@@ -1,4 +1,3 @@
 # verilog-modules
-Collection of individual Verilog modules
 
-These are simple verilog modules that can be used to create more complex digital designs
+This is a collection of simple Verilog modules that can be used to create more complex designs.
